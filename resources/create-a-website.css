@@ -180,7 +180,8 @@ li {
     transition: opacity linear;
 }
 
-.button:visited {
+.button:visited,
+.button a:visited {
     color: inherit;
     background-color: inherit;
 }
