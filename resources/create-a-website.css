@@ -174,7 +174,8 @@ li {
     cursor: pointer;
 }
 
-.button:active {
+.button:active, .button a:active,
+.button h5:active {
     opacity: 50%;
     transition: opacity linear;
 }
