@@ -170,7 +170,8 @@ li {
     transition: background-color ease-out;
 }
 
-.button a:hover {
+.button a:hover,
+.button h5:hover {
     cursor: pointer;
 }
 
