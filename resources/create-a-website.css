@@ -334,7 +334,7 @@ li {
 #contact {
     display: flex;
     flex-direction: column;
-    background-image: url(../resources/images/pexels-marc-mueller-380768.jpg);
+    background-image: url(resources/images/pexels-marc-mueller-380768.jpg);
     background-position: center;
     width: 100%;
 }
