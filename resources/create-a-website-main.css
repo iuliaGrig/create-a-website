@@ -119,7 +119,7 @@ main header {
 
 main header video {
     width: 100%;
-    filter: brightness(0.4);
+    filter: brightness(0.3);
     object-fit: cover;
     top: 0;
     left: 0;
