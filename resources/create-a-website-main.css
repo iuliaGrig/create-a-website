@@ -1,0 +1,39 @@
+body {
+    font-size: 16px;
+}
+
+/* Navigation */
+
+nav a {
+    color: #00073A;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+nav #title {
+    font-size: 2em;
+}
+
+.skip-link {
+    position: absolute;
+    left: -999em;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.skip-link:focus, .skip-link:hover {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    left: auto;
+    top: auto;
+}
