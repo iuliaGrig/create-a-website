@@ -7,6 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="resources/create-a-website-main.css">
         <link rel="stylesheet" href="resources/create-a-website-about.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d6d299e60b.js" crossorigin="anonymous"></script>
         <script src="create-a-website.js"></script>
     </head>
 
@@ -14,7 +18,7 @@
 
         <nav>
             <h1 id="title"><a href="#">Create-a-Website</a></h1>
-            <img id="logo" src="resources/images/Logo maker project.png" alt="create-a-website logo">
+            <a href="#"><img id="logo" src="resources/images/Logo maker project.png" alt="create-a-website logo"></a>
             <ul class="tabs">
                 <li class="tab"><a href="#about">About Me</a></li>
                 <li class="tab"><a href="#creations">Creations</a></li>
@@ -22,7 +26,7 @@
             </ul>
         </nav>
 
-        <a href="#main-content" class="skip-link">Skip to main content</a> <!--Make sure you hide this after, make visible for voiceover-->
+        <a href="#main-content" class="skip-link">Skip to main content</a> <!-- Make sure you hide this after, make visible for VoiceOver/screen readers -->
 
         <main id="main-content">
             <header class="video-container">
@@ -30,6 +34,32 @@
 
                 <h2 class="presentation">Hello, welcome to my website!</h2>
             </header>
+
+            <article class="about">
+
+                <h2 id="about">More about me</h2>
+
+                <section class="infos">
+
+                    <section class="info-box" id="details">
+                        <h3>Personal Details:</h3>
+                        <ul id="list">
+                            <li>Name: Iulia Grigore</li>
+                            <li>Age: 22</li>
+                            <li>Location: Longueuil, Canada <i class="fa-brands fa-canadian-maple-leaf"></i></li>
+                            <li>Languages Spoken: English, French, Romanian</li>
+                            <li>Programming Languages: HTML5, CSS3, JavaScript (currently learning full-stack engineering, Ruby on Rails and PHP)</li>
+                        </ul>
+                    </section>
+
+                    <section class="info-box" id="about-text">
+                        <h3>Some more info:</h3>
+                        <p>Passionate about aviation, natural sciences and computer technology, I bring a unique blend of experience. With a foundation in customer service and a commitment to continuous learning, I've navigated various roles in the aviation industry while honing my skills in web development. My time with the Air Cadets instilled in me valuable lessons in leadership, teamwork, and aviation knowledge, including receiving the prestigious Squadron Leader Neil Graham CD trophy for outstanding performance. Now, I'm eager to combine my diverse experiences to tackle new challenges and make a meaningful impact.</p>
+                    </section>
+
+                </section>
+
+            </article>
         </main>
 
     </body>
