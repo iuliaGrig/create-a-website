@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="resources/create-a-website-main.css">
         <link rel="stylesheet" href="resources/create-a-website-about.css">
+        <script src="create-a-website.js"></script>
     </head>
 
     <body>
@@ -14,16 +15,20 @@
         <nav>
             <h1 id="title"><a href="#">Create-a-Website</a></h1>
             <ul class="tabs">
-                <li class="tab">About Me</li>
-                <li class="tab">Creations</li>
-                <li class="tab">Contact Me</li>
+                <li class="tab"><a href="#about">About Me</a></li>
+                <li class="tab"><a href="#creations">Creations</a></li>
+                <li class="tab"><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
 
         <a href="#main-content" class="skip-link">Skip to main content</a> <!--Make sure you hide this after, make visible for voiceover-->
 
         <main id="main-content">
+            <header class="video-container">
+                <video autoplay muted loop id="video-bckd" type="video/mp4" src="resources/videos/4828605-hd_1366_720_25fps.mp4">Video is not supported by your browser :(</video>
 
+                <h2 class="presentation">Hello, welcome to my website!</h2>
+            </header>
         </main>
 
     </body>
