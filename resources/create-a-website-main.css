@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
     margin: 0px;
+    font-family: "Quicksand", Helvetica, sans-serif;
 }
 
 /* Navigation */
@@ -100,6 +101,8 @@ nav #title {
     overflow: hidden;
     background-color: #fff;
     z-index: 999;
+    margin: 0;
+    padding: 0;
 }
 
 .skip-link:focus, .skip-link:hover {
@@ -115,6 +118,10 @@ nav #title {
 
 main header {
     position: relative;
+    margin: 0;
+    margin-block: 0;
+    padding: 0;
+    background-color: #A4A4A6;
 }
 
 main header video {
@@ -124,6 +131,8 @@ main header video {
     top: 0;
     left: 0;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .presentation {
@@ -132,10 +141,11 @@ main header video {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #D9D5D2;
-    font-size: 2em;
+    font-size: 2.5em;
     z-index: 1;
     text-align: center;
     flex-shrink: 1;
+    margin: 0;
 }
 
 @media screen and (max-width: 520px) {
