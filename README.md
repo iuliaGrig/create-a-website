@@ -1,4 +1,4 @@
-# create-website
+# create-a-website
 
 Website serving as a portfolio
 ## Sections: 
