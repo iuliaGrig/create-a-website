@@ -1,4 +1,5 @@
 window.addEventListener('resize', function() {
+    const navHeight = document.querySelector('nav').offsetHeight;
     this.document.querySelector('main').style.marginTop = navHeight + 'px';
 });
 
