@@ -1,4 +1,8 @@
 # create-website
 
-Website serving as some sort of a portfolio, not sure yet.
+Website serving as a portfolio
+## Sections: 
+- About me
+- Creations
+- Contact info
 
