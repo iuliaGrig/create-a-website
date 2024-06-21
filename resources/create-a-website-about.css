@@ -38,3 +38,16 @@
 #about-text {
     width: 50%;
 }
+
+@media screen and (max-width: 795px) {
+    .infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #details {
+        border-bottom: solid 1px #00073A;
+        border-right: none;
+    }
+}
