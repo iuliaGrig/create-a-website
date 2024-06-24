@@ -1,0 +1,17 @@
+#main-content-contact {
+    padding: 1rem 2rem;
+    color: #00073A;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
